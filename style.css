@@ -1,0 +1,53 @@
+
+
+body{
+    margin:0px;
+    background-color:rgba(117, 245, 245, 0.39)
+}
+
+.menu{
+    display:flex;
+    justify-content: space-between;
+    background-color: rgb(91, 236, 157);
+    padding : 15px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color:rgb(5, 5, 5)
+}
+
+.grid img{
+    border: 2px solid black;
+    border-radius: 50px;
+    
+}
+
+.origami {
+
+ 
+  border-radius: 20px;
+  background-color: white;
+  padding:30px;
+  margin:25px;
+  width: 310px;
+  font-family: fantasy;
+  
+}
+
+a:link{
+    color:rgb(1, 2, 2)
+}
+
+a:visited{
+    color:brown
+}
+
+.origami:hover{
+
+    transform: scale(1.2);
+    position: relative;
+}
+
+a{
+    text-decoration: none;
+}
